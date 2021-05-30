@@ -4,8 +4,8 @@
     reference:
     https://gray-code.com/javascript/create-new-html-element/
 */
-genre = 99; // object type:  0 - 紅葉 | 1 - 葉 | 2 - 桜
-limit = 35; // object display count
+var genre = 99; // object type:  0 - 紅葉 | 1 - 葉 | 2 - 桜
+var limit = 35; // object display count
 
 function pxRange(min, max){ // 最小～最大の範囲でランダムな値を返す
     // Type：String
@@ -37,7 +37,7 @@ function rainy(){
         img_elm.src = "assets/"+objGenre(genre);
         var rain_elm = document.createElement("div");
         rain_elm.className = "object rain";
-        rain_elm.style.left = pxRange(10, 90)+"%"; // x-axis
+        rain_elm.style.left = pxRange(5, 95)+"%"; // object x-axsis range
         rain_elm.style.animationDuration = pxRange(10, 20)+"s, 5s"; // object fall speed
         rain_elm.style.zIndex = "-1";
         rain_elm.appendChild(img_elm);
