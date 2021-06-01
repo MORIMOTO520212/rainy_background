@@ -1,5 +1,8 @@
 # Rainy Background
 
+## 導入方法
+style.cssで`/* RALLY BACKGROUND */`と書いてある下すべてをコピーしてお使いください。  
+各親要素には、`display: inline-block;`と`position: absolute;`を記述してください。  
 
 # Reference
 https://csshtml.work/animation-multi/  
