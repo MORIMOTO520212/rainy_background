@@ -72,7 +72,7 @@ function rainy(){
 }
 setInterval(rainy, delay);
 
-/* scroll point detection */
+/* scroll point detection リスト化する */
 var c_01 = document.getElementById("c_01"); // change effect point
 var c_02 = document.getElementById("c_02"); // change effect point
 var g = 0;
